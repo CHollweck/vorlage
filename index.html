@@ -1,0 +1,315 @@
+<!--
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX																   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	Project Name:	Vorlage	   									   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	Version:		0.1 										   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	Creator:		Christopher Hollweck						   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	License:	   	CC											   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX	
+XXXXXXXX	frameworks:		jQuery, fullPage.js, Granim.js, TweenMax       XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	App:			no											   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	Created:	   	2016-09-19									   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	Last Change:	2016-09-21									   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX																   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX	
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX																   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	|	|	|---	|---|	|---\	 				   		       XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	|___|	|___	|	|	| 	 \	 	   						   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	|	|	|		|---|	|	 |	  							   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	|	|	|---	|	|	|___/	 							   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX	
+XXXXXXXX																   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX	
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXHEAD+XXXXXXXXXXXXX--><html><head><!--XXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX-->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">	
+<title>Vorlage</title>
+<link href="css/style.css" rel="stylesheet">
+
+
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+<!--XXXXX   Styling+   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css" >
+
+<link rel="stylesheet" href="css/javascript.fullPage.css">
+
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<link rel="stylesheet" href="css/csshake.min.css">
+
+<link rel="stylesheet" href="css/animate.css">
+
+<link rel="stylesheet" href="css/hover-min.css">
+
+		
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+<!--XXXXX   Fonts+   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+<link href="fonts/Forum-Regular.ttf" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+<!--XXXXX   Frameworks+   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+		
+<script src="js/jquery-3.1.0.min.js"></script>
+
+<script src="js/javascript.fullPage.min.js"></script>
+
+<script src="js/granim.min.js"></script>
+
+<script src="js/TweenMax.min.js"></script>
+
+<script type="text/javascript" src="js/buttons.js"></script>
+
+																													  <!--XXXXXXXX
+																														  XXXXXXXX
+																														  XXXXXXXX
+																														  XXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX	
+XXXXXXXX																   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	|	|	|---	|		|---|	|---	|---|	|----		   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	|___|	|___	|		|___|	|___	|___|	|___		   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	|	|	|		|		|		|		|\			|		   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	|	|	|---	|___	|		|---	| \		____| HEAD	   XXXXXXXXXHLPHD+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX	
+XXXXXXXX																   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX	
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX-->
+
+
+																											          <!--XXXXXXXX
+																														  XXXXXXXX
+																														  XXXXXXXX
+																														  XXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX																   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	|---|	|---|	|--		|	|					   		       XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	|___|	|  	|	|  \	|___|								   XXXXXXXXXXXXXXXXX--></head><body><!-XXXXXXXXXXXXXXXXXXX
+XXXXXXXX	|	| 	|	|	|	|	  |		 							   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	|---|	|___|	|---|	  |				   					   XXXXXXXXXXXXBODY+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX	
+XXXXXXXX																   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX	
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX-->
+
+<!-- Set BG -->
+<canvas id="canvas-basic"></canvas>
+	
+
+<!-- MainBody -->
+<div id="fullpage">
+    <section id="section0" class="section">
+	    <h1 class="pagetitle centern animated fadeInUpBig">Seitentitel/Logo</h1><br>
+  	 	<div class="box fadeIn" id="box1">
+	  	 	<div class="mainarea">
+	  	 		<h2 class="shake">Ueberschrift</h2><br>
+	  	 		<h3>unterueberschrift</h3><br>
+	  	 		<p>	Das ist Text.Das ist Text.Das ist Text.Das ist Text.Das ist Text.Das<br> ist Text.Das ist Text.Das ist Text.
+		  	 		Das ist Text.Das ist Text.Das ist Text.<br>Das ist Text.Das ist Text.Das ist Text.Das ist Text.Das ist Text.
+	  	 		</p><br>
+	  	 		<a href="http://tiger.works/vorlage/">basic link</a><br><br>
+	  	 		<a href="http://tiger.works/vorlage/" class="hvr-grow-rotate cbutton">
+	  	 			<i class="fa fa-lightbulb-o"></i> Button 1
+	  	 		</a>
+	  	 	</div>
+  	 	</div>  
+    </section>
+    <section id="section1" class="section">
+	    <h1 class="pagetitle centern animated fadeInUpBig">Seitentitel/Logo</h1><br>
+  	 	<div class="box fadeIn" id="box2">
+	  	 	<div class="mainarea">
+	  	 		<h2 class="shake">Ueberschrift</h2><br>
+	  	 		<h3>unterueberschrift</h3><br>
+	  	 		<p>	Das ist Text.Das ist Text.Das ist Text.Das ist Text.Das ist Text.Das<br> ist Text.Das ist Text.Das ist Text.
+		  	 		Das ist Text.Das ist Text.Das ist Text.<br>Das ist Text.Das ist Text.Das ist Text.Das ist Text.Das ist Text.
+	  	 		</p><br>
+	  	 		<a href="http://tiger.works/vorlage/">basic link</a><br><br>
+	  	 		<a href="http://tiger.works/vorlage/" class="hvr-grow-rotate cbutton">
+	  	 			<i class="fa fa-lightbulb-o"></i> Button 1
+	  	 		</a>
+	  	 	</div>
+  	 	</div>  
+    </section>
+    <section id="section2" class="section">
+	    <h1 class="pagetitle centern animated fadeInUpBig">Seitentitel/Logo</h1><br>
+  	 	<div class="box fadeIn" id="box3">
+	  	 	<div class="mainarea">
+	  	 		<h2 class="shake">Ueberschrift</h2><br>
+	  	 		<h3>unterueberschrift</h3><br>
+	  	 		<p>	Das ist Text.Das ist Text.Das ist Text.Das ist Text.Das ist Text.Das<br> ist Text.Das ist Text.Das ist Text.
+		  	 		Das ist Text.Das ist Text.Das ist Text.<br>Das ist Text.Das ist Text.Das ist Text.Das ist Text.Das ist Text.
+	  	 		</p><br>
+	  	 		<a href="http://tiger.works/vorlage/">basic link</a><br><br>
+	  	 		<a href="http://tiger.works/vorlage/" class="hvr-grow-rotate cbutton">
+	  	 			<i class="fa fa-lightbulb-o"></i> Button 1
+	  	 		</a>
+	  	 	</div>
+  	 	</div>  
+    </section>
+    <section id="section3" class="section">
+	    <h1 class="pagetitle centern animated fadeInUpBig">Seitentitel/Logo</h1><br>
+  	 	<div class="box fadeIn" id="box4">
+	  	 	<div class="mainarea">
+	  	 		<h2 class="shake">Ueberschrift</h2><br>
+	  	 		<h3>unterueberschrift</h3><br>
+	  	 		<p>	Das ist Text.Das ist Text.Das ist Text.Das ist Text.Das ist Text.Das<br> ist Text.Das ist Text.Das ist Text.
+		  	 		Das ist Text.Das ist Text.Das ist Text.<br>Das ist Text.Das ist Text.Das ist Text.Das ist Text.Das ist Text.
+	  	 		</p><br>
+	  	 		<a href="http://tiger.works/vorlage/">basic link</a><br><br>
+	  	 		<a href="http://tiger.works/vorlage/" class="hvr-grow-rotate cbutton">
+	  	 			<i class="fa fa-lightbulb-o"></i> Button 1
+	  	 		</a>
+	  	 	</div>
+  	 	</div>  
+    </section>
+</div>
+
+																											          <!--XXXXXXXX
+																														  XXXXXXXX
+																														  XXXXXXXX
+																														  XXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX																   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	|	|	|---	|		|---|	|---	|---|	|----		   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	|___|	|___	|		|___|	|___	|___|	|___		   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	|	|	|		|		|		|		|\			|		   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX	|	|	|---	|___	|		|---	| \		____| BODY	   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX	
+XXXXXXXX																   XXXXXXXXXXXXXXXXXXHLPBY+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX	
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX-->
+
+<!--XXXXX   Set BG   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+<script>
+	var granimInstance = new Granim(
+	{
+	    element: '#canvas-basic',
+	    name: 'basic-gradient',
+	    direction: 'diagonal',
+	    opacity: [.4, .4],
+	    isPausedWhenNotInView: true,
+	    states : {
+	        "default-state": {
+	            gradients: [
+	                ['#320c93', '#d3c928'],
+	                ['#02AAB0', '#00CDAC'],
+	                ['#DA22FF', '#9733EE']
+	            ],
+	            transitionSpeed: 10000,
+				loop: true
+	        },
+	        "st01": {
+	            gradients: [
+	                ['#000000', '#111111'],
+	                ['#222222', '#333333'],
+	                ['#444444', '#555555']
+	            ],
+	            transitionSpeed: 10000,
+				loop: true
+	        },
+	        "st02": {
+	            gradients: [
+	                ['#ffffff', '#eeeeee'],
+	                ['#dddddd', '#cccccc'],
+	                ['#bbbbbb', '#aaaaaa']
+	            ],
+	            transitionSpeed: 10000,
+				loop: true
+	        },
+	        "st03": {
+	            gradients: [
+	                ['#00aeff', '#12ab67'],
+	                ['#02AAB0', '#9233AC'],
+	                ['#DA22FF', '#973356']
+	            ],
+	            transitionSpeed: 10000,
+				loop: true
+	        }
+	    }
+	});
+</script>
+
+
+<script>
+	function st01 () {
+		granimInstance.changeState('default-state');
+		}
+	function st02 () {
+		granimInstance.changeState('st01');
+		}
+	function st03 () {
+		granimInstance.changeState('st02');
+		}
+	function st04 () {
+		granimInstance.changeState('st03');
+		}
+</script>
+
+
+<script type="text/javascript">
+	$( document ).ready(function() {
+	    fullpage.initialize('#fullpage', {    
+		    css3: false,
+		    responsive: 800,
+			onLeave: function(index, nextIndex, direction){
+            	switch(nextIndex) {
+				    case 1:
+				    	st01 ();
+				        break;
+				    case 2:
+				        st02 ();
+				        break;
+				    case 3:	
+				    	st03 ();
+				    	break;
+				    case 4:
+				    	st04 ();
+				    	break;
+				    default:
+				        st01 ();
+				        break;
+				}
+			}   
+		});
+	});	
+</script>
+<!--XXXXX   Custom Helpers   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+
+
+																											          <!--XXXXXXXX
+																														  XXXXXXXX
+																														  XXXXXXXX
+																														  XXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXX--></body></html><!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX	
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX	
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  |-- |\  | |--     XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  |-- | \ | |  \    XXXXXXXXXXXEND+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  |-- |  \| |___\   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
